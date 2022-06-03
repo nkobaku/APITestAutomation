@@ -1,0 +1,10 @@
+<?xml version = "1.0"encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--  data-provider-thread-count is the default number of threads to se for data providers when running tests in parallel-->
+<suite data-provider-thread-count="5" name="Run All API Tests" parallel="true" verbose="1">
+  <test name="API Test Automation">
+    <classes>
+      <class name="com.devopslabs.apitestautomation.runner.APIRunner"/>
+    </classes>
+  </test>
+</suite>
